@@ -1,0 +1,56 @@
+body {
+  background: rgb(35, 48, 48);
+  color: antiquewhite;
+}
+
+.dashboard {
+  text-align: center;
+}
+.header {
+  color: orangered;
+  margin: 4rem;
+}
+.balance {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 6rem;
+  font-weight: bolder;
+}
+.bal_amt {
+  font-size: 6rem;
+}
+.track_panel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.income_track {
+  color: green;
+}
+.expense_track {
+  color: red;
+}
+.input_form {
+  margin: 4rem;
+}
+.form-group input {
+  border-bottom: 1px solid black !important;
+  background-color: rgb(35, 48, 48) !important;
+  color: burlywood !important;
+}
+.form-group input:hover {
+  border-bottom: 1px solid red !important;
+}
+.history_header {
+  margin: 2rem;
+  text-decoration: underline;
+  color: azure;
+}
+.history_tab {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  margin: 1rem 3rem;
+  text-align: center;
+}
