@@ -16,7 +16,10 @@ const InputForm = (props) => {
       title,
       amount: parseInt(amount),
     };
-
+  
+    if (!newTransaction.amount) {
+      return null;
+    }
     addTransaction(newTransaction);
     setTitle("");
     setAmount("");
